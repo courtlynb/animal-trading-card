@@ -1,0 +1,61 @@
+.container {
+    width: 340px;
+    border-width: 4px;
+    border-style: solid;
+    background-color: #fdd6d1;
+    padding-bottom: 20px;
+    border-image: linear-gradient(to right, rgb(246, 110, 132), rgb(127, 69, 250)) 3;
+    box-shadow: 4px 4px 4px gray;
+}
+
+img {
+    width: 300px;
+    padding: 10px 0 10px 20px ;
+}
+
+.description {
+    width: 280px;
+    border: 2px solid gray;
+    margin-left: 20px;
+   padding: 10px;
+   color: rgb(73, 73, 73)
+    
+}
+
+h1 {
+   margin-bottom: 0; 
+   padding-left: 20px;
+    font: 30pt bold;
+    font-family: 'Dancing Script', cursive
+}
+
+.mainInfo {
+    font: Italic 12pt Montserrat, 'Times New Roman';
+}
+
+li {
+    list-style: none;
+   text-align: left;
+   font: 10pt Montserrat, 'Times New Roman';
+   font-weight: 700;
+
+}
+
+ul{
+    padding-inline-start: 0px;
+    display: flex;
+   flex-wrap: wrap;
+   width: 200px;
+}
+
+.moreInfo {
+    font: 11pt Montserrat, 'Times New Roman' ;
+    margin: 0;
+    padding-bottom: 15px;
+}
+
+span {
+    font: 10pt Montserrat, 'Times New Roman'; 
+   margin-left: 5px;
+}
+
